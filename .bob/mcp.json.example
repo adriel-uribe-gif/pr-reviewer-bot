@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pr-reviewer": {
+      "command": "node",
+      "args": ["YOUR_FULL_PATH_HERE\\mcp-server\\dist\\index.js"],
+      "env": {
+        "GITHUB_TOKEN": "ghp_paste_your_token_here",
+        "GITHUB_API_URL": "https://api.github.com"
+      }
+    }
+  }
+}
